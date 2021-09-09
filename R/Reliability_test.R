@@ -1,7 +1,7 @@
 #' Reliability_test() Function
 #'
 #' This function mean
-#' @param t
+#' @param x,t :x is data t is numeric
 #' @keywords Reliability_test
 #' @export
 

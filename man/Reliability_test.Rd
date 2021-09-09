@@ -6,6 +6,9 @@
 \usage{
 Reliability_test(x, t)
 }
+\arguments{
+\item{x, t}{:x is data t is numeric}
+}
 \description{
 This function mean
 }
