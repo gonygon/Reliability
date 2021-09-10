@@ -10,6 +10,6 @@ Reliability_test(x, t)
 \item{x, t}{:x is data t is numeric}
 }
 \description{
-This function mean
+신뢰성학회 연습용 입니다.
 }
 \keyword{Reliability_test}

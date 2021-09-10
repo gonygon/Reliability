@@ -1,6 +1,6 @@
 #' Reliability_test() Function
 #'
-#' This function mean
+#' 신뢰성학회 연습용 입니다.
 #' @param x,t :x is data t is numeric
 #' @keywords Reliability_test
 #' @export
