@@ -1,11 +1,11 @@
-#' test() Function
+#' Reliability_test2() Function
 #'
 #' 신뢰성학회 연습용 입니다.
 #' @param a,b,c :a is data b is numeric
-#' @keywords test
+#' @keywords Reliability_test2
 #' @export
 
-test<-function(a,b,c){
+Reliability_test2<-function(a,b,c){
   n_star<-ceiling(sqrt(a*(b/c)))
   n_s<-n_star+30
   n<-c(1:n_s)
