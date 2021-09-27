@@ -12,4 +12,4 @@ Reliability_test1(x, t)
 \description{
 신뢰성학회 연습용 입니다.
 }
-\keyword{Reliability_test}
+\keyword{Reliability_test1}
