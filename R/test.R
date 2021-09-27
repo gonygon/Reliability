@@ -1,8 +1,8 @@
-#' Reliability_test2() Function
+#' test() Function
 #'
 #' 신뢰성학회 연습용 입니다.
-#' @param x,t :x is data t is numeric
-#' @keywords Reliability_test2
+#' @param a,b,c :a is data b is numeric
+#' @keywords test
 #' @export
 
 test<-function(a,b,c){
