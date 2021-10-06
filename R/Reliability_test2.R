@@ -14,6 +14,6 @@ Reliability_test2<-function(a,b,c){
   t<-which.min(k)
   x<-plot(n,k, type = 'b',col="red")
   Reliability<-c(t,r,x)
-  names(Reliability)<-c("n","best_cost")
+  names(Reliability)<-c("최적점검횟수","총 기대비용")
   Reliability
 }
