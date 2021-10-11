@@ -4,7 +4,7 @@
 \alias{Reliability_test2}
 \title{Reliability_test2() Function}
 \usage{
-Reliability_test2(a, b, c)
+Reliability_test2(r, c_r, c_i)
 }
 \arguments{
 \item{a, b, c}{:a is data b is numeric}
