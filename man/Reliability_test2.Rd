@@ -7,7 +7,7 @@
 Reliability_test2(r, c_r, c_i)
 }
 \arguments{
-\item{r, c_r, c_i}{:a is data b is numeric}
+\item{r:평균고장횟수}{c_r: 고장시 수리비용 c_i:점검비용}
 }
 \description{
 비용최적화를 위한 R 패키지 함수이며 (r,c_r,c_i)형태의 함수를 유지하고 있습니다
