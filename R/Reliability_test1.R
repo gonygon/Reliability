@@ -6,10 +6,10 @@
 #' @export
 
 Reliability_test1<-function(x,t){
-  a<-mean(x)
-  b<-1/mean(x)
-  c<-exp(-((1/mean(x))*t))
-  Reliability<-c(a,b,c)
+  M<-mean(x)
+  L<-1/mean(x)
+  R<-exp(-((1/mean(x))*t))
+  Reliability<-c(M,L,R)
   names(Reliability)<-c("MMTF","Lambda","R")
   Reliability
 }
