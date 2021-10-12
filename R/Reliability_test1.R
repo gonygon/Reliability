@@ -10,6 +10,6 @@ Reliability_test1<-function(x,t){
   L<-1/mean(x)
   R<-exp(-((1/mean(x))*t))
   Reliability<-c(M,L,R)
-  names(Reliability)<-c("MMTF","Lambda","R")
+  names(Reliability)<-c("평균수명","고장률","단위시간t동안 고장나지 않을 확률")
   Reliability
 }
