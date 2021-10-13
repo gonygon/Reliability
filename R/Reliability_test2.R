@@ -14,7 +14,7 @@ Reliability_test2<-function(r,Cr,Ci){
   Cn<-(r/n)*Cr+n*Ci
   best_cost<-min(Cn)
   best_n<-which.min(Cn)
-  x<-plot(n,Cn, type = 'l',col="red",xlab="점검주기",ylab="기대비용",main="점검주기에 따른 기대비용 분포"); abline(v=best_n);abline(h=best_cost)
+  x<-plot(n,Cn, type = 'l',col="red",xlab="점검주기",ylab="기대비용",main="점검주기에 따른 기대비용 분포"); abline(v=best_n,lty="dotted",col="blue");abline(h=best_cost,lty="dotted",col="blue")
   Reliability<-c(best_n,best_cost,x)
   names(Reliability)<-c("최적점검횟수","총기대비용")
   Reliability
