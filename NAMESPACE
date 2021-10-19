@@ -1,4 +1,4 @@
 exportPattern("^[[:alpha:]]+")
 
-export(Reliability_test1)
-export(Reliability_test2)
+export(ra1)
+export(ra2)
