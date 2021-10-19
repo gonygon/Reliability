@@ -4,7 +4,7 @@ Title: 제11회 신뢰성 경진대회 패키지
 Version: 0.1.0
 Author: 김형곤
 Maintainer: 김형곤<gudrhs2452@naver.com>
-Description: 경성대학교 빅데이터응용통계학과에서 개발한 신뢰성분석 관련 패키지 입니다. 깃허브를 활용한 배포 및 현 패키지에는 ra1, ra2의 함수가 내장되어있으며 ra1은 지수분포를 따르는 신뢰성 분석 ra2는 최적점검주기 결정 함수입니다.
+Description: 
 License: 경성대학교 빅데이터응용통계학과
 Encoding: UTF-8
 LazyData: true
